@@ -31,6 +31,7 @@ public class LevelManager : MonoBehaviour
 
     public void ToNextLevel() {
         int level = PlayerPrefs.GetInt(CURRENT_LEVEL_PREF, 0) + 1;
+        print(level);
 
         if(LevelExists(level)) {
             
@@ -43,6 +44,11 @@ public class LevelManager : MonoBehaviour
     }
 
     private bool LevelExists(int level) {
-        return level <= levels.Length;
+        return level < levels.Length;
+    }
+
+    [ContextMenu("Reset")]
+    private void ResetLevels() {
+        PlayerPrefs.DeleteKey(CURRENT_LEVEL_PREF);
     }
 }
