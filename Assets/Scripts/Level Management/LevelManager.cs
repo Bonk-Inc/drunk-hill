@@ -47,7 +47,7 @@ public class LevelManager : MonoBehaviour
     }
 
     [ContextMenu("Reset")]
-    private void ResetLevels() {
+    public void ResetLevels() {
         PlayerPrefs.DeleteKey(CURRENT_LEVEL_PREF);
     }
 }
