@@ -34,8 +34,12 @@ public class PauseGameState : PdaState
     public override void Reason()
     {
         if(menuInput.Check()){
-            Machine.PopState();
+            Unpause();
         } 
+    }
+
+    public void Unpause(){
+        Machine.PopState();
     }
 
 
