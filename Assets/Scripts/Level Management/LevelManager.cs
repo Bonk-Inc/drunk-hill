@@ -31,7 +31,6 @@ public class LevelManager : MonoBehaviour
 
     public void ToNextLevel() {
         int level = PlayerPrefs.GetInt(CURRENT_LEVEL_PREF, 0) + 1;
-        print(level);
 
         if(LevelExists(level)) {
             
