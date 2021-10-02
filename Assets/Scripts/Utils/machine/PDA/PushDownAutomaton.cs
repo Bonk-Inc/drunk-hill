@@ -5,9 +5,16 @@ using UnityEngine;
 public class PushDownAutomaton : MonoBehaviour
 {
 
+    [SerializeField]
+    private PdaState initialState;
+
     private Stack<IPdaState> states = new Stack<IPdaState>();
 
     public IPdaState CurrentState => states.Count > 0 ? states.Peek() : null;
+
+    private void Awake() {
+        PushState(initialState);
+    }
 
     public void PushState(IPdaState state){
 
@@ -23,10 +30,9 @@ public class PushDownAutomaton : MonoBehaviour
         if(states.Count == 0){
             return;
         }
-
         IPdaState oldState = states.Pop();
         oldState.Leave();
-        CurrentState?.Reason();
+        CurrentState?.Enter();
     }
 
     private void Update() {
