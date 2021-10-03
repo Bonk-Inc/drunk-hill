@@ -20,9 +20,8 @@ public class PlayerAnimationHandler : MonoBehaviour {
     }
 
     public void CheckGameOver() {
-        Debug.Log(health.IsDead);
         if(health.IsDead){
-            uiStates.PushState(gameOverState);
+            uiStates?.PushState(gameOverState);
         }
     }
 }
