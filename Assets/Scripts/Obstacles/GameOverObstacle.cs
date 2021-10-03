@@ -5,13 +5,13 @@ using UnityEngine;
 public class GameOverObstacle : MonoBehaviour
 {
 
-    [SerializeField]
-    private PushDownAutomaton uiStates;
+    const string PLAYER_TAG = "Player";
 
-    [SerializeField]
-    private PdaState gameOverState;
+
 
     private void OnTriggerEnter2D(Collider2D other) {
-        uiStates.PushState(gameOverState);
+        if(other.CompareTag(PLAYER_TAG)){
+            other.GetComponent<PlayerHitHandler>().Die();
+        }
     }
 }
