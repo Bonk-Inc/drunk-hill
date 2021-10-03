@@ -288,6 +288,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 430224936896400859}
     m_Modifications:
+    - target: {fileID: 843643527344974038, guid: e111901fd3952ef4aaf9365a536d198f, type: 3}
+      propertyPath: countdownTimerState
+      value: 
+      objectReference: {fileID: 3602231731096552301}
     - target: {fileID: 1759885998961086087, guid: e111901fd3952ef4aaf9365a536d198f, type: 3}
       propertyPath: m_Name
       value: Pause Menu
