@@ -13,8 +13,6 @@ public class PlayerAnimationHandler : MonoBehaviour {
     [SerializeField]
     private PdaState gameOverState;
 
-
-
     private void Awake() {
         health = GetComponent<PlayerHitHandler>();
     }

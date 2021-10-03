@@ -6,14 +6,15 @@ public class PushDownAutomaton : MonoBehaviour
 {
 
     [SerializeField]
-    private PdaState initialState;
+    private List<PdaState> initialStateStack;
 
     private Stack<IPdaState> states = new Stack<IPdaState>();
 
     public IPdaState CurrentState => states.Count > 0 ? states.Peek() : null;
 
     private void Awake() {
-        PushState(initialState);
+        foreach (var state in initialStateStack)
+            PushState(state);
     }
 
     public void PushState(IPdaState state){
