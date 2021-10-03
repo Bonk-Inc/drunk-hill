@@ -22,8 +22,6 @@ public class CountdownTimerState : PdaState
         countdownTimer.SetActive(true);
         
         StartCoroutine("Countdown");
-        
-        Leave();
     }
 
     public override void Leave()
