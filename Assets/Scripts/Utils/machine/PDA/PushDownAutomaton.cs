@@ -26,6 +26,10 @@ public class PushDownAutomaton : MonoBehaviour
         state.Enter();
     }
 
+    public void PushState(PdaState state){
+        PushState((IPdaState)state);
+    }
+
     public void PopState(){
         if(states.Count == 0){
             return;
@@ -42,6 +46,4 @@ public class PushDownAutomaton : MonoBehaviour
             CurrentState.Update();
         }
     }
-
-
 }
