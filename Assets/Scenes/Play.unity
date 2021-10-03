@@ -225,11 +225,30 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5043174631546488735, guid: c96b36c3d5cabbf40bb4707b5aa47cdd, type: 3}
   m_PrefabInstance: {fileID: 85407001}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &190031527 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1841486967101631958, guid: 8c11123dd4744db75b2c1d2b1f106b86, type: 3}
+  m_PrefabInstance: {fileID: 3602231730999791837}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &190031528 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8497099782417730700, guid: 8c11123dd4744db75b2c1d2b1f106b86, type: 3}
   m_PrefabInstance: {fileID: 3602231730999791837}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &190031529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190031527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32a1d5cd5a8ef4627bbfa8736e2ba629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countdownTimer: {fileID: 3602231730999791839}
+  timer: {fileID: 1607575649}
 --- !u!1 &234161915
 GameObject:
   m_ObjectHideFlags: 0
@@ -1251,6 +1270,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 29822715934522261, guid: 8c11123dd4744db75b2c1d2b1f106b86, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1841486967101631958, guid: 8c11123dd4744db75b2c1d2b1f106b86, type: 3}
       propertyPath: m_Name
       value: Countdown Timer
@@ -1320,5 +1343,10 @@ PrefabInstance:
 --- !u!224 &3602231730999791838 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 9137264762480235031, guid: 8c11123dd4744db75b2c1d2b1f106b86, type: 3}
+  m_PrefabInstance: {fileID: 3602231730999791837}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3602231730999791839 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 29822715934522261, guid: 8c11123dd4744db75b2c1d2b1f106b86, type: 3}
   m_PrefabInstance: {fileID: 3602231730999791837}
   m_PrefabAsset: {fileID: 0}
