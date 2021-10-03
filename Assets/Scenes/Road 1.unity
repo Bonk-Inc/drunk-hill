@@ -278,6 +278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Generic Log Obstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 980980589642830430, guid: ffea0cb2554282941ba7986f802970d9, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7199225024796454903, guid: ffea0cb2554282941ba7986f802970d9, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -705,6 +709,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7023280787621233853, guid: 9b0c4a71dd4e2a5459092f7b6526a203, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7023280787621233853, guid: 9b0c4a71dd4e2a5459092f7b6526a203, type: 3}
+      propertyPath: maxDrunkMovement
+      value: 0.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b0c4a71dd4e2a5459092f7b6526a203, type: 3}
 --- !u!4 &773933348 stripped
@@ -986,7 +998,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7043912340417320470, guid: 66ab38510db699d47a67d2d4f57a5efa, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 7043912340417320470, guid: 66ab38510db699d47a67d2d4f57a5efa, type: 3}
       propertyPath: m_LocalScale.y
