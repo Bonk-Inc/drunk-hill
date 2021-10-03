@@ -760,10 +760,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road
       objectReference: {fileID: 0}
-    - target: {fileID: 4914706644242757136, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 20
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
 --- !u!4 &1265530984 stripped
