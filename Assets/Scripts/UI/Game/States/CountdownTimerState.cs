@@ -21,12 +21,15 @@ public class CountdownTimerState : PdaState
         timeRemaining = countFrom;
         countdownTimer.SetActive(true);
         
+        Time.timeScale = 0;
+
         StartCoroutine("Countdown");
     }
 
     public override void Leave()
     {
         countdownTimer.SetActive(false);
+        Time.timeScale = 1;
     }
 
     private IEnumerator Countdown()
@@ -38,6 +41,8 @@ public class CountdownTimerState : PdaState
             
             yield return new WaitForSecondsRealtime(1);
         }
+        
+        Machine.PopState();
     }
 
     private void DisplayTime()
