@@ -31,13 +31,22 @@ public class PushDownAutomaton : MonoBehaviour
         PushState((IPdaState)state);
     }
 
+    public void SetState(IPdaState state){
+        PopStateSilent();
+        PushState(state);
+    }
+
     public void PopState(){
+        PopStateSilent();
+        CurrentState?.Enter();
+    }
+
+    public void PopStateSilent(){
         if(states.Count == 0){
             return;
         }
         IPdaState oldState = states.Pop();
         oldState.Leave();
-        CurrentState?.Enter();
     }
 
     private void Update() {

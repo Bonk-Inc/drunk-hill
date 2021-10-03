@@ -8,6 +8,9 @@ public class PauseGameState : PdaState
     [SerializeField]
     private GameObject pauseGameMenu;
 
+    [SerializeField]
+    private CountdownTimerState countdownTimerState;
+
     private float timeScaleAtEnter = 0;
 
     private MenuOpenCheck menuInput = new MenuOpenCheck();
@@ -39,7 +42,7 @@ public class PauseGameState : PdaState
     }
 
     public void Unpause(){
-        Machine.PopState();
+        Machine.SetState(countdownTimerState);
     }
 
 
