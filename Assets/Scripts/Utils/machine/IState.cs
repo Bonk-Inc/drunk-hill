@@ -5,7 +5,7 @@ using UnityEngine;
 public interface IState<MachineType>
 {
 
-    MachineType Machine { get; set;}
+    MachineType Machine { get; set; }
 
     void Enter();
     void Reason();
