@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -11,9 +12,12 @@ public class CountdownTimerState : PdaState
     [SerializeField]
     private TextMeshProUGUI timer;
 
+    [SerializeField]
+    private AudioSource countdownAudio;
+    
     [SerializeField] 
     private int countFrom;
-    
+
     private int timeRemaining;
 
     public override void Enter()
@@ -37,6 +41,7 @@ public class CountdownTimerState : PdaState
         while (timeRemaining > 0)
         {
             DisplayTime();
+            countdownAudio.Play();
             timeRemaining--;
             
             yield return new WaitForSecondsRealtime(1);
@@ -48,5 +53,6 @@ public class CountdownTimerState : PdaState
     private void DisplayTime()
     {
         timer.text = timeRemaining.ToString();
+        timer.fontSize += 30;
     }
 }
