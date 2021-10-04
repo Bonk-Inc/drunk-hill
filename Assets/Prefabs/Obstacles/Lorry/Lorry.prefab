@@ -57,7 +57,7 @@ Transform:
   m_GameObject: {fileID: 7310632827322535359}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children:
   - {fileID: 7310632827185425711}
   - {fileID: 7310632828555075901}
@@ -192,7 +192,7 @@ MonoBehaviour:
   pos2: {fileID: 7310632828555075901}
   parent: {fileID: 0}
   obstacles:
-  - {fileID: 10826451813569455, guid: 66ab38510db699d47a67d2d4f57a5efa, type: 3}
+  - {fileID: 472022216198231830, guid: 50b8702d9f6004c44bdb90fe451673da, type: 3}
 --- !u!1 &7310632827538115629
 GameObject:
   m_ObjectHideFlags: 0

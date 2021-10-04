@@ -22,9 +22,7 @@ public class TargetMover : MonoBehaviour
         var startPos = transform.position;
         var targetPos = target.position;
         float way = 0;
-        Debug.Log(way);
         yield return new WaitForSecondsRealtime(startDelay - driveTime);
-        Debug.Log(way);
         while ( way < 1)
         {
             transform.position = Vector3.Lerp(startPos, targetPos, way);

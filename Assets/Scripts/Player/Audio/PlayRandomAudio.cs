@@ -7,7 +7,6 @@ public class PlayRandomAudio : MonoBehaviour
     [SerializeField] 
     private AudioSource audio;
 
-    // Update is called once per frame
     void Update()
     {
         int randomInt = Random.Range(0, 20_000);
