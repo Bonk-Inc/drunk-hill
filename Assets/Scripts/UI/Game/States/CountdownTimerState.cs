@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -52,5 +53,6 @@ public class CountdownTimerState : PdaState
     private void DisplayTime()
     {
         timer.text = timeRemaining.ToString();
+        timer.fontSize += 30;
     }
 }
