@@ -213,6 +213,10 @@ PrefabInstance:
       propertyPath: gameFinishedUiGobj
       value: 
       objectReference: {fileID: 182973053}
+    - target: {fileID: 7605901516259155192, guid: c96b36c3d5cabbf40bb4707b5aa47cdd, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 773933349}
     - target: {fileID: 9020171872463486101, guid: c96b36c3d5cabbf40bb4707b5aa47cdd, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -716,6 +720,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1238075168857852782, guid: 9b0c4a71dd4e2a5459092f7b6526a203, type: 3}
   m_PrefabInstance: {fileID: 773933347}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &773933349 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3440999439216100396, guid: 9b0c4a71dd4e2a5459092f7b6526a203, type: 3}
+  m_PrefabInstance: {fileID: 773933347}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf1569a962f0a3041a27435407e00785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &849034919
 GameObject:
   m_ObjectHideFlags: 0
