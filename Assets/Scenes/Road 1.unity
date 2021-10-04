@@ -216,7 +216,7 @@ PrefabInstance:
     - target: {fileID: 7605901516259155192, guid: c96b36c3d5cabbf40bb4707b5aa47cdd, type: 3}
       propertyPath: health
       value: 
-      objectReference: {fileID: 773933349}
+      objectReference: {fileID: 556517353}
     - target: {fileID: 9020171872463486101, guid: c96b36c3d5cabbf40bb4707b5aa47cdd, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -650,6 +650,17 @@ Transform:
   m_Father: {fileID: 1300529153}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &556517353 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3440999439216100396, guid: 9b0c4a71dd4e2a5459092f7b6526a203, type: 3}
+  m_PrefabInstance: {fileID: 773933347}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf1569a962f0a3041a27435407e00785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &773933347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -720,17 +731,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1238075168857852782, guid: 9b0c4a71dd4e2a5459092f7b6526a203, type: 3}
   m_PrefabInstance: {fileID: 773933347}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &773933349 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3440999439216100396, guid: 9b0c4a71dd4e2a5459092f7b6526a203, type: 3}
-  m_PrefabInstance: {fileID: 773933347}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf1569a962f0a3041a27435407e00785, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &849034919
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,6 +1119,11 @@ Transform:
   m_Father: {fileID: 339382059}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1239107862 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1421338736, guid: e7dc406ab12ea63448e9ba4312669d8d, type: 3}
+  m_PrefabInstance: {fileID: 5546454526389222837}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1265530983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1126,6 +1131,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1300583614}
     m_Modifications:
+    - target: {fileID: 1607908332, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: winSource
+      value: 
+      objectReference: {fileID: 1239107862}
     - target: {fileID: 1607908332, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
       propertyPath: levelManager
       value: 

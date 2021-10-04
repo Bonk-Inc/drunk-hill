@@ -7,7 +7,11 @@ public class EndLevelTrigger : MonoBehaviour
     [SerializeField]
     private LevelManager levelManager;
 
+    [SerializeField]
+    private AudioSource winSource;
+
     private void OnTriggerEnter2D(Collider2D other) {
+        winSource?.Play();
         levelManager.ToNextLevel();
     }
 }
