@@ -283,10 +283,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5546454525194959244, guid: e7dc406ab12ea63448e9ba4312669d8d, type: 3}
-      propertyPath: Mute
-      value: 1
-      objectReference: {fileID: 0}
+    - target: {fileID: 1421338736, guid: e7dc406ab12ea63448e9ba4312669d8d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 68dcfca051b4dc24e8ccebc5ede50aa1, type: 3}
     - target: {fileID: 5546454526703663176, guid: e7dc406ab12ea63448e9ba4312669d8d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1807,7 +1807,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3440999439216100396, guid: 9b0c4a71dd4e2a5459092f7b6526a203, type: 3}
   m_PrefabInstance: {fileID: 773933347}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 773933352}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf1569a962f0a3041a27435407e00785, type: 3}
@@ -2024,6 +2024,10 @@ PrefabInstance:
       propertyPath: m_AdaptiveModeThreshold
       value: 0.403
       objectReference: {fileID: 0}
+    - target: {fileID: 1607908332, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: winSource
+      value: 
+      objectReference: {fileID: 1421338736}
     - target: {fileID: 1607908332, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
       propertyPath: levelManager
       value: 
@@ -2435,6 +2439,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffea0cb2554282941ba7986f802970d9, type: 3}
+--- !u!82 &1421338736 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1421338736, guid: e7dc406ab12ea63448e9ba4312669d8d, type: 3}
+  m_PrefabInstance: {fileID: 165126478}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1581266889
 GameObject:
   m_ObjectHideFlags: 0

@@ -1104,6 +1104,11 @@ Transform:
   m_Father: {fileID: 339382059}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1239107862 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1421338736, guid: e7dc406ab12ea63448e9ba4312669d8d, type: 3}
+  m_PrefabInstance: {fileID: 5546454526389222837}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1265530983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1111,6 +1116,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1300583614}
     m_Modifications:
+    - target: {fileID: 1607908332, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: winSource
+      value: 
+      objectReference: {fileID: 1239107862}
     - target: {fileID: 1607908332, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
       propertyPath: levelManager
       value: 
