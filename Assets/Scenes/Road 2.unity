@@ -528,7 +528,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4715586414112074510, guid: 4ddae54639199344c8e4e478c96c268c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.4
+      value: 5.8
       objectReference: {fileID: 0}
     - target: {fileID: 4715586414112074510, guid: 4ddae54639199344c8e4e478c96c268c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -564,7 +564,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4715586414763035117, guid: 4ddae54639199344c8e4e478c96c268c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.76
+      value: 1.36
       objectReference: {fileID: 0}
     - target: {fileID: 4715586414800433274, guid: 4ddae54639199344c8e4e478c96c268c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -596,7 +596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4715586415525595650, guid: 4ddae54639199344c8e4e478c96c268c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.4
+      value: 5.8
       objectReference: {fileID: 0}
     - target: {fileID: 4715586415525595650, guid: 4ddae54639199344c8e4e478c96c268c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -608,7 +608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4715586415536918144, guid: 4ddae54639199344c8e4e478c96c268c, type: 3}
       propertyPath: fallTimeInSeconds
-      value: 4
+      value: 3.8
       objectReference: {fileID: 0}
     - target: {fileID: 4715586415536918145, guid: 4ddae54639199344c8e4e478c96c268c, type: 3}
       propertyPath: m_RootOrder
@@ -1297,6 +1297,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1581266890}
     m_Modifications:
+    - target: {fileID: 773933353, guid: 9b0c4a71dd4e2a5459092f7b6526a203, type: 3}
+      propertyPath: hurtNoises.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 773933353, guid: 9b0c4a71dd4e2a5459092f7b6526a203, type: 3}
+      propertyPath: hurtNoises.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: aab9403a31656324db652c5f7be4d532, type: 3}
+    - target: {fileID: 773933353, guid: 9b0c4a71dd4e2a5459092f7b6526a203, type: 3}
+      propertyPath: hurtNoises.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 5a68eb48e8b7fed438b9dd1b5d7f814d, type: 3}
+    - target: {fileID: 773933353, guid: 9b0c4a71dd4e2a5459092f7b6526a203, type: 3}
+      propertyPath: hurtNoises.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: ae21e9f4d07fcc24f85fab9ab4fc1c64, type: 3}
+    - target: {fileID: 773933353, guid: 9b0c4a71dd4e2a5459092f7b6526a203, type: 3}
+      propertyPath: hurtNoises.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: a5773b0ad1c103c4b9ee972edcb32cf8, type: 3}
+    - target: {fileID: 773933353, guid: 9b0c4a71dd4e2a5459092f7b6526a203, type: 3}
+      propertyPath: hurtNoises.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: e21a7f7823dc2f94a8dd7b66b977d25b, type: 3}
+    - target: {fileID: 773933353, guid: 9b0c4a71dd4e2a5459092f7b6526a203, type: 3}
+      propertyPath: hurtNoises.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: b98c164cb42338044980e6af7b5a0def, type: 3}
     - target: {fileID: 1075451234916825365, guid: 9b0c4a71dd4e2a5459092f7b6526a203, type: 3}
       propertyPath: uiStates
       value: 
@@ -1731,6 +1759,10 @@ PrefabInstance:
       value: 21.986513
       objectReference: {fileID: 0}
     - target: {fileID: 2386301385852745564, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: height
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386301385852745564, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
       propertyPath: props.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -1761,6 +1793,10 @@ PrefabInstance:
     - target: {fileID: 2386301385852745564, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
       propertyPath: props.Array.data[3].density
       value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3646711956486602130, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: height
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 3646711956486602130, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
       propertyPath: props.Array.size
