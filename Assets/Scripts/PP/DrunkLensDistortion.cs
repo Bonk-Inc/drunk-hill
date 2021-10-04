@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
 
-public class DrunkAbberation : MonoBehaviour
+public class DrunkLensDistortion : MonoBehaviour
 {
-
     [SerializeField]
     private PostProcessVolume volume;
+
+    private LensDistortion lensDistortion;
 
     [SerializeField]
     private float acceleration = 5;
@@ -22,8 +23,13 @@ public class DrunkAbberation : MonoBehaviour
 
     private float currentAbberation = 0, targetAbberation = 0;
 
+    private void Awake() {
+        lensDistortion = volume.sharedProfile.GetSetting<LensDistortion>();
+    }
+
     private void Update() {
         HandleMove();
+        
     }
 
     private void HandleMove(){
@@ -47,6 +53,6 @@ public class DrunkAbberation : MonoBehaviour
     }
 
     private void MoveInCurrentDirection(){
-        volume.weight = currentAbberation * PlayerPrefs.GetFloat(DRUNKNESS_SETTING_KEY, 1);
+        lensDistortion.intensity.Override(currentAbberation * PlayerPrefs.GetFloat(DRUNKNESS_SETTING_KEY, 1));
     }
 }

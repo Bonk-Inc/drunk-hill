@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5265134794100581427}
   - component: {fileID: 5265134794100581428}
+  - component: {fileID: 9134727797883482166}
   m_Layer: 6
   m_Name: Drunk PP
   m_TagString: Untagged
@@ -48,3 +49,20 @@ MonoBehaviour:
   blendDistance: 0
   weight: 0.4
   priority: 1
+--- !u!114 &9134727797883482166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5265134794100581429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e98307025b2b55647a7a8de1d25b5083, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volume: {fileID: 5265134794100581428}
+  acceleration: 2
+  abberationEqualsApprox: 0.1
+  minDrunkAbberation: 0.3
+  maxDrunkAbberation: 1
