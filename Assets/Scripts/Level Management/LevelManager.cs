@@ -10,12 +10,12 @@ public class LevelManager : MonoBehaviour
     private string[] levels;
 
     private const string CURRENT_LEVEL_PREF = "currentLevel";
-    private SceneSwitcher sceneSwitcher;
+    private SceneLoader sceneSwitcher;
 
     public event Action OnLastLevelFinished;
 
     private void Awake() {
-        sceneSwitcher = GetComponent<SceneSwitcher>();
+        sceneSwitcher = SceneLoader.Instance;
         
         PlayerPrefs.GetInt(CURRENT_LEVEL_PREF, 0);
     }
@@ -25,7 +25,7 @@ public class LevelManager : MonoBehaviour
         int level = PlayerPrefs.GetInt(CURRENT_LEVEL_PREF, 0);
 
         if(LevelExists(level)) {
-            sceneSwitcher.SwitchScene(levels[level]);
+            sceneSwitcher.LoadScene(levels[level]);
         }
     }
 
@@ -35,7 +35,7 @@ public class LevelManager : MonoBehaviour
         if(LevelExists(level)) {
             
             PlayerPrefs.SetInt(CURRENT_LEVEL_PREF, level);
-            sceneSwitcher.SwitchScene(levels[level]);
+            sceneSwitcher.LoadScene(levels[level]);
         }
         else {
             OnLastLevelFinished?.Invoke();

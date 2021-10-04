@@ -8,6 +8,16 @@ public class SettingsState : PdaState
     [SerializeField]
     private GameObject SettingUI;
 
+    [SerializeField]
+    private AudioSetting[] settings;
+
+    private void Start() {
+        foreach (var setting in settings)
+        {
+            setting.LoadSetting();
+        }
+    }
+
     public override void Enter()
     {
         SettingUI.SetActive(true);

@@ -22,20 +22,11 @@ public class AudioSetting : MonoBehaviour
     private string playerPrefKey;
 
     private void Awake() {
-        playerPrefKey = $"vol_{settingName}";
-
         slider.maxValue = LogToLinear(maxDB);
         slider.minValue = LogToLinear(minDB);
         
-        float startValue;
-        if(PlayerPrefs.HasKey(playerPrefKey)){
-            startValue = PlayerPrefs.GetFloat(playerPrefKey);
-        } else {
-            mixer.GetFloat("volume", out startValue);
-        }
-        slider.value = LogToLinear(startValue);
+        slider.value = LogToLinear(LoadSetting());
         
-
         slider.onValueChanged.AddListener((val) => SetVolume());
     }
 
@@ -50,5 +41,17 @@ public class AudioSetting : MonoBehaviour
 
     private float LinearToLog(float linear){
         return Mathf.Log10(linear)*20;
+    }
+
+    public float LoadSetting(){
+        playerPrefKey = $"vol_{settingName}";
+        float startValue;
+        if(PlayerPrefs.HasKey(playerPrefKey)){
+            startValue = PlayerPrefs.GetFloat(playerPrefKey);
+            mixer.SetFloat("volume", startValue);
+        } else {
+            mixer.GetFloat("volume", out startValue);
+        }
+        return startValue;
     }
 }
