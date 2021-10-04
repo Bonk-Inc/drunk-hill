@@ -2976,6 +2976,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3875579329476723774, guid: ccf3ab873d84c9c4fb2f221e5efc1c39, type: 3}
+      propertyPath: uiStates
+      value: 
+      objectReference: {fileID: 1268814793}
+    - target: {fileID: 3875579329476723774, guid: ccf3ab873d84c9c4fb2f221e5efc1c39, type: 3}
+      propertyPath: gameFinishedState
+      value: 
+      objectReference: {fileID: 319988198}
     - target: {fileID: 9142132524072624290, guid: ccf3ab873d84c9c4fb2f221e5efc1c39, type: 3}
       propertyPath: uiStates
       value: 
