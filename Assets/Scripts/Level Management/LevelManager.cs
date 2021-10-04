@@ -14,7 +14,7 @@ public class LevelManager : MonoBehaviour
 
     public event Action OnLastLevelFinished;
 
-    private void Awake() {
+    private void Start() {
         sceneSwitcher = SceneLoader.Instance;
         
         PlayerPrefs.GetInt(CURRENT_LEVEL_PREF, 0);
@@ -39,6 +39,15 @@ public class LevelManager : MonoBehaviour
         }
         else {
             OnLastLevelFinished?.Invoke();
+        }
+    }
+
+    public void GoToLevel(int level) {
+        if(LevelExists(level)) {
+            PlayerPrefs.SetInt(CURRENT_LEVEL_PREF, level);
+            sceneSwitcher.LoadScene(levels[level]);
+        } else {
+            throw new ArgumentException($"Given level {level} does not exist");
         }
     }
 
