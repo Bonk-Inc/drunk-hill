@@ -397,6 +397,7 @@ GameObject:
   - component: {fileID: 1238075168857852783}
   - component: {fileID: 7023280787621233853}
   - component: {fileID: 3269084501414613911}
+  - component: {fileID: 3440999439216100396}
   - component: {fileID: 145616161117592791}
   - component: {fileID: 3148283264890984574}
   - component: {fileID: 1075451234916825365}
@@ -569,6 +570,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3440999439216100396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238075168857852776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf1569a962f0a3041a27435407e00785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3
+  initialHealth: 3
 --- !u!114 &145616161117592791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -581,6 +596,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cd7479e275f366449abceffade586e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forwardWalker: {fileID: 0}
+  invulnerabilityTimer: 2
+  blinkInivTime: 0.08
+  blinkVisTime: 0.3
+  sprite: {fileID: 1238075168857852777}
 --- !u!114 &3148283264890984574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -608,6 +628,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiStates: {fileID: 0}
   gameOverState: {fileID: 0}
+  animator: {fileID: 3269084501414613911}
+  standUpDelay: 0.8
+  forwardWalker: {fileID: 0}
+  hitHandler: {fileID: 145616161117592791}
+  sideMover: {fileID: 1238075168857852780}
 --- !u!61 &6594401197934770106
 BoxCollider2D:
   m_ObjectHideFlags: 0

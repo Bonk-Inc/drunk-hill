@@ -11,21 +11,22 @@ public class PlayerHealthChangedHandler : MonoBehaviour
     private const string GAMEOVER_ANIM_BOOL = "isGameOver";
     
     private Animator animator;
-    private PlayerHitHandler health;
+    private Health health;
 
     [SerializeField]
     private SideMover mover;
 
+
     private void Awake() {
         animator = GetComponent<Animator>();
-        health = GetComponent<PlayerHitHandler>();
-        health.OnPlayerHitObstacle += OnPlayerHit;
+        health = GetComponent<Health>();
+        health.OnHealthChange += OnPlayerHit;
     }
 
-    private void OnPlayerHit(bool isDead){
+    private void OnPlayerHit(Health.HealthChangeArgs healthChangeArgs){
         mover.PauseMovement = true;
         animator.SetTrigger(IS_FALLING_ANIM_TRIGGER);
-        if(isDead){
+        if(healthChangeArgs.IsDead){
             animator.SetBool(GAMEOVER_ANIM_BOOL, true);
         }
     }

@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameOverObstacle : Obstacle
+public class DamageObstacle : Obstacle
 {
+    
     protected override void OnPlayerHit(Collider2D other)
     {
-        other.GetComponent<PlayerHitHandler>().Die();
+        other.GetComponent<PlayerHitHandler>().Hit();
     }
 }
