@@ -6524,6 +6524,7 @@ GameObject:
   - component: {fileID: 849034920}
   - component: {fileID: 849034921}
   - component: {fileID: 849034922}
+  - component: {fileID: 849034923}
   m_Layer: 0
   m_Name: Right grass patch (1)
   m_TagString: Untagged
@@ -6558,7 +6559,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -4.598909, y: -14.0000305}
+  m_Offset: {x: -4.5773115, y: -14.0000305}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6569,7 +6570,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.464019, y: 32.08022}
+  m_Size: {x: 9.420824, y: 32.08022}
   m_EdgeRadius: 0
 --- !u!114 &849034922
 MonoBehaviour:
@@ -6583,6 +6584,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3193449501b48074e881c187989dd32c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &849034923
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849034919}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -4.4869256, y: -14.0000305}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.240052, y: 32.08022}
+  m_EdgeRadius: 0
 --- !u!1 &850419718
 GameObject:
   m_ObjectHideFlags: 0
@@ -11980,7 +12007,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1584330954}
-  - component: {fileID: 1584330955}
   m_Layer: 0
   m_Name: Left Props (1)
   m_TagString: Untagged
@@ -12080,29 +12106,6 @@ Transform:
   m_Father: {fileID: 63042165}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1584330955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1584330953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d058369dc3ac9b04a8efe123b32bdc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  width: 3.5
-  height: 34
-  props:
-  - prefab: {fileID: 562140033332180682, guid: bbcd3209d9f57364ca0effe53166f552, type: 3}
-    density: 0.2
-  - prefab: {fileID: 1898269274666066637, guid: 01d8394d1763a94439faed8433ed6e76, type: 3}
-    density: 0.15
-  - prefab: {fileID: 8520147965330470629, guid: da014186631b1ae4392e5fc050a3c7d0, type: 3}
-    density: 0.15
-  - prefab: {fileID: 8654375594772638887, guid: 28bf33f8559511e41ad11c6fe4954681, type: 3}
-    density: 0.15
 --- !u!1 &1587792185
 GameObject:
   m_ObjectHideFlags: 0
@@ -12197,6 +12200,7 @@ GameObject:
   - component: {fileID: 1590369472}
   - component: {fileID: 1590369473}
   - component: {fileID: 1590369474}
+  - component: {fileID: 1590369475}
   m_Layer: 0
   m_Name: Left grass patch
   m_TagString: Untagged
@@ -12256,6 +12260,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3193449501b48074e881c187989dd32c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &1590369475
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590369471}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -5.4483047, y: -14.000029}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.121503, y: 32.08022}
+  m_EdgeRadius: 0
 --- !u!1 &1599589217
 GameObject:
   m_ObjectHideFlags: 0
@@ -14037,7 +14067,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1795066469}
-  - component: {fileID: 1795066470}
   m_Layer: 0
   m_Name: Right Props (1)
   m_TagString: Untagged
@@ -14145,29 +14174,6 @@ Transform:
   m_Father: {fileID: 63042165}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1795066470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795066468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d058369dc3ac9b04a8efe123b32bdc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  width: 3.76
-  height: 34
-  props:
-  - prefab: {fileID: 562140033332180682, guid: bbcd3209d9f57364ca0effe53166f552, type: 3}
-    density: 0.2
-  - prefab: {fileID: 1898269274666066637, guid: 01d8394d1763a94439faed8433ed6e76, type: 3}
-    density: 0.15
-  - prefab: {fileID: 8520147965330470629, guid: da014186631b1ae4392e5fc050a3c7d0, type: 3}
-    density: 0.15
-  - prefab: {fileID: 8654375594772638887, guid: 28bf33f8559511e41ad11c6fe4954681, type: 3}
-    density: 0.15
 --- !u!1 &1800167842
 GameObject:
   m_ObjectHideFlags: 0
