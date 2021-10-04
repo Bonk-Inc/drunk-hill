@@ -1069,6 +1069,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 430224936896400859}
     m_Modifications:
+    - target: {fileID: 336348681465781032, guid: 0abced1f147111c47a47d11a73c0398f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1208.6893
+      objectReference: {fileID: 0}
+    - target: {fileID: 530589525724609959, guid: 0abced1f147111c47a47d11a73c0398f, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791490232211839253, guid: 0abced1f147111c47a47d11a73c0398f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1578.6893
+      objectReference: {fileID: 0}
     - target: {fileID: 5064698457201368390, guid: 0abced1f147111c47a47d11a73c0398f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -1293,6 +1305,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -37.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2757017157231505823, guid: 0d0ce3b756a2a524dbd34b7bd8874761, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4194574365378614967, guid: 0d0ce3b756a2a524dbd34b7bd8874761, type: 3}
       propertyPath: gameFinishedUiGobj
       value: 
@@ -1339,6 +1355,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4994772336705904286, guid: 0d0ce3b756a2a524dbd34b7bd8874761, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5719032695030620383, guid: 0d0ce3b756a2a524dbd34b7bd8874761, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6296708869069886275, guid: 0d0ce3b756a2a524dbd34b7bd8874761, type: 3}
