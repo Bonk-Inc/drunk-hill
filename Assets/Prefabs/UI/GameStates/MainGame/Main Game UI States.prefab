@@ -1223,19 +1223,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 336348681465781032, guid: 0abced1f147111c47a47d11a73c0398f, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 336348681465781032, guid: 0abced1f147111c47a47d11a73c0398f, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 336348681465781032, guid: 0abced1f147111c47a47d11a73c0398f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 934.3203
       objectReference: {fileID: 0}
     - target: {fileID: 336348681465781032, guid: 0abced1f147111c47a47d11a73c0398f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -37.5
       objectReference: {fileID: 0}
     - target: {fileID: 530589525724609959, guid: 0abced1f147111c47a47d11a73c0398f, type: 3}
       propertyPath: m_MatchWidthOrHeight
@@ -1243,19 +1243,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3791490232211839253, guid: 0abced1f147111c47a47d11a73c0398f, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3791490232211839253, guid: 0abced1f147111c47a47d11a73c0398f, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3791490232211839253, guid: 0abced1f147111c47a47d11a73c0398f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 1304.3203
       objectReference: {fileID: 0}
     - target: {fileID: 3791490232211839253, guid: 0abced1f147111c47a47d11a73c0398f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -37.5
       objectReference: {fileID: 0}
     - target: {fileID: 5064698457201368390, guid: 0abced1f147111c47a47d11a73c0398f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
