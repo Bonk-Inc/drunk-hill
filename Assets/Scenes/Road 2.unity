@@ -1730,6 +1730,70 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 21.986513
       objectReference: {fileID: 0}
+    - target: {fileID: 2386301385852745564, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: props.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386301385852745564, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: props.Array.data[1].prefab
+      value: 
+      objectReference: {fileID: 1898269274666066637, guid: 01d8394d1763a94439faed8433ed6e76, type: 3}
+    - target: {fileID: 2386301385852745564, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: props.Array.data[2].prefab
+      value: 
+      objectReference: {fileID: 8520147965330470629, guid: da014186631b1ae4392e5fc050a3c7d0, type: 3}
+    - target: {fileID: 2386301385852745564, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: props.Array.data[3].prefab
+      value: 
+      objectReference: {fileID: 8654375594772638887, guid: 28bf33f8559511e41ad11c6fe4954681, type: 3}
+    - target: {fileID: 2386301385852745564, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: props.Array.data[0].density
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386301385852745564, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: props.Array.data[1].density
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386301385852745564, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: props.Array.data[2].density
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386301385852745564, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: props.Array.data[3].density
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3646711956486602130, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: props.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3646711956486602130, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: props.Array.data[1].prefab
+      value: 
+      objectReference: {fileID: 1898269274666066637, guid: 01d8394d1763a94439faed8433ed6e76, type: 3}
+    - target: {fileID: 3646711956486602130, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: props.Array.data[2].prefab
+      value: 
+      objectReference: {fileID: 8520147965330470629, guid: da014186631b1ae4392e5fc050a3c7d0, type: 3}
+    - target: {fileID: 3646711956486602130, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: props.Array.data[3].prefab
+      value: 
+      objectReference: {fileID: 8654375594772638887, guid: 28bf33f8559511e41ad11c6fe4954681, type: 3}
+    - target: {fileID: 3646711956486602130, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: props.Array.data[0].density
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3646711956486602130, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: props.Array.data[1].density
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3646711956486602130, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: props.Array.data[2].density
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3646711956486602130, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
+      propertyPath: props.Array.data[3].density
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 4914706643702087890, guid: fe5b3bde81f7acf44ad86076d18f060e, type: 3}
       propertyPath: m_RootOrder
       value: 0
