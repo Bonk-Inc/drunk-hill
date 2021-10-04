@@ -52,7 +52,6 @@ public class AudioSetting : MonoBehaviour
         } else {
             mixer.GetFloat("volume", out startValue);
         }
-        Debug.Log(playerPrefKey);
         return startValue;
     }
 }
