@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6473858940724157655}
   - component: {fileID: 3045740340752043132}
   - component: {fileID: 3948837164646919082}
-  - component: {fileID: 6994313820376920580}
+  - component: {fileID: 8568064910962846115}
   m_Layer: 0
   m_Name: Generic Obstacle
   m_TagString: Untagged
@@ -119,7 +119,7 @@ PolygonCollider2D:
       - {x: 0.093500376, y: -0.020370781}
       - {x: 0.09213781, y: 0.01459834}
       - {x: 0.007894635, y: 0.094196066}
---- !u!114 &6994313820376920580
+--- !u!114 &8568064910962846115
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,8 +128,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 4048931802349279598}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3193449501b48074e881c187989dd32c, type: 3}
+  m_Script: {fileID: 11500000, guid: f5746313e05e3244791d615b088c078d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiStates: {fileID: 0}
-  gameOverState: {fileID: 0}

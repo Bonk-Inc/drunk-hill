@@ -196,7 +196,7 @@ GameObject:
   - component: {fileID: 4715586415525595650}
   - component: {fileID: 4715586415525595679}
   - component: {fileID: 4715586415525595648}
-  - component: {fileID: 4715586415525595649}
+  - component: {fileID: 4188911609368609517}
   m_Layer: 0
   m_Name: Shadow (Real obstacle)
   m_TagString: Untagged
@@ -283,7 +283,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.022268653, y: -0.020412877}
+  m_Offset: {x: -0.016525745, y: -0.024240494}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -294,9 +294,9 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1597915, y: 0.24948284}
+  m_Size: {x: 1.0755613, y: 0.18822098}
   m_EdgeRadius: 0
---- !u!114 &4715586415525595649
+--- !u!114 &4188911609368609517
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -305,7 +305,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4715586415525595651}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3193449501b48074e881c187989dd32c, type: 3}
+  m_Script: {fileID: 11500000, guid: f5746313e05e3244791d615b088c078d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4715586415536918146
