@@ -18,12 +18,15 @@ public class CameraDrunkyRotation : MonoBehaviour
     private float current;
     private Vector3 velocity = Vector3.zero;
 
+    private float multiplier = 1f;
+
     private void Awake() {
         CreateNewTarget();
     }
 
-    private void Update() {
 
+    private void Update() {
+        multiplier = PlayerPrefs.GetFloat(CameraDrunknessSetting.DRUNKNESS_SETTING_KEY, 1);
         current = Mathf.Lerp(current, target, moveSpeed*Time.deltaTime);
         transform.localRotation = Quaternion.Euler(0, 0, current);
         
@@ -34,7 +37,7 @@ public class CameraDrunkyRotation : MonoBehaviour
     }
 
     private void CreateNewTarget(){
-        target = Random.Range(-maxRotation, maxRotation);
+        target = Random.Range(-maxRotation, maxRotation) * multiplier;
     }
 
 
