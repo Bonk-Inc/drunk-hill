@@ -11990,6 +11990,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 522849378}
     m_Modifications:
+    - target: {fileID: 1871043256359258034, guid: ef12aab2e66f7924fb3d8939b2fd18d4, type: 3}
+      propertyPath: m_Size.y
+      value: 0.87332284
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871043256359258034, guid: ef12aab2e66f7924fb3d8939b2fd18d4, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.13833852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871043256832743711, guid: ef12aab2e66f7924fb3d8939b2fd18d4, type: 3}
+      propertyPath: m_Size.y
+      value: 0.90110743
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871043256832743711, guid: ef12aab2e66f7924fb3d8939b2fd18d4, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.12444633
+      objectReference: {fileID: 0}
     - target: {fileID: 1871043257477920704, guid: ef12aab2e66f7924fb3d8939b2fd18d4, type: 3}
       propertyPath: m_Name
       value: Plank Hole (5)
