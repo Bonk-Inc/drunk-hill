@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -244,6 +245,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      LD-49-Minsk-Fall_4: -7213385376341895947
+      LD-49-Minsk-Fall_3: -6161846984973489077
+      LD-49-Minsk-Fall_0: 6905166198682673311
+      LD-49-Minsk-Fall_5: 498737795721745476
+      LD-49-Minsk-Fall_1: -8875844465093376105
+      LD-49-Minsk-Fall_2: 8956885600371954102
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

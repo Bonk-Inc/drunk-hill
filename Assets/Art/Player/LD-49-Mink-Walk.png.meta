@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -316,6 +317,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      LD-49-Mink-Walk_5: -5846335820088524349
+      LD-49-Mink-Walk_1: -6590685609635758979
+      LD-49-Mink-Walk_4: -3902510497779227719
+      LD-49-Mink-Walk_8: -7665643477873099820
+      LD-49-Mink-Walk_7: 5394512333477538619
+      LD-49-Mink-Walk_3: 6532146300697780474
+      LD-49-Mink-Walk_6: -7755698399970162965
+      LD-49-Mink-Walk_0: 3606190357999016639
+      LD-49-Mink-Walk_2: -1974105326872761475
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
